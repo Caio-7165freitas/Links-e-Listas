@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo_html.png">
+    
+    <title>Tarefa Sem 3</title>
+    <style>
+        .menu {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-item {
+    display: inline-block;
+}
+.menu-formatacao {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.menu-formatacao-item {
+    font-size: 30px;
+    text-align: center;
+    padding:  10px 10px;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color:black;
+    border-bottom-width: 5px;
+}
+.selecionado {
+    background-color: #09610f;
+}
+ul#menu-navegacao li a:hover {
+    background-color:red;
+    color: white;
+}
+       
+        
+    </style>
+</head>
+
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+
+                <ul id="menu-navegacao" class="menu" class="menu-formatacao">
+                    <li class="menu-item"><a href="home.html" class="menu-formatacao-item">Home</a></li>
+                    <li class="menu-item"><a href="Lista 1.html" class="menu-formatacao-item">Lista 1</a></li>
+                    <li class="menu-item"><a href="Lista 2.html" class="menu-formatacao-item">Lista 2</a></li>
+                    <li class="menu-item"><a href="Lista 3.html" class="menu-formatacao-item" class="selecionado">Lista 3</a></li>
+              </ul>
+
+            </ul>
+        </nav>
+
+    </header>
+    <h1>Vamos Seguir com os Links.</h1>
+    <p>Primeiro vamos ver os links interos, depois iremos ver os links externos</p>
+    <h3>Links Internos!</h3>
+
+
+    <p>Clique para ver o <a href="home.html" title='Inicio' >inicio.</a></p>
+    <p>Clique para ver a <a href="Lista 1.html" title='Lista 1' >lista ordenada.</a></p>
+    <p>Clique para ver a <a href="Lista 2.html" title='Lista 2' >lista não ordenada.</a></p>
+    <p>Clique para ver a <a href="Lista 3.html" title='Lista 3' >lista de descrição.</a></p>
+    <p>Ao clicar nesses links, encontrará os modelos de listas apresentados em aula, caso<br>
+        queira, poderá acessar esses links pelo menu acima.
+    </p>
+
+    <hr />
+    <h3>Links externos</h3>
+
+    <p>Clique <a href="https://imasters.com.br/back-end/menus-com-listas-construindo-de-forma-simples-e-semantica" title='Sobre Listas'>aqui</a>
+        para conhecer um pouco mais sobre listas</p>
+
+</body>
+
+</html>
